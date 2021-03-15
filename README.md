@@ -39,12 +39,6 @@ Available TCP Ports:
     git clone https://github.com/kobotoolbox/kobo-install.git
     cd kobo-install 
 
-    sudo nano helpers/aws_validation.py
-
-Change lines 50 - 52 to 
-
-    canonical_headers = 'host:' + host + '\n' + 'x-amz-date:' + amzdate + '\n'
-
 ## 5. Run the application
     python3 run.py
 First time the command is executed, setup will be launched.
