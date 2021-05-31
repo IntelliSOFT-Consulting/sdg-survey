@@ -68,7 +68,7 @@ Options:
     9. SMTP password
 
     10. Use TLS?
-        2) No
+        2) Yes
     11. From email address?
 
     12. Super user's username? 
@@ -124,8 +124,11 @@ Options:
     $kobo-install> python3 run.py --setup
 
 
-## 7. Changing the logos
-    sudo cp survey-resources/kobologo.svg sdgsurvey/kobo-docker/.vols/static/kpi/img/
-    sudo cp survey-resources/kobologo.svg sdgsurvey/kobo-docker/.vols/static/kpi/compiled/
-    sudo cp survey-resources/kobologoS.svg sdgsurvey/kobo-docker/.vols/static/kpi/compiled/
-    sudo cp survey-resources/kobologoS.svg sdgsurvey/kobo-docker/.vols/static/kpi/img/
+## 7. Changing the background image and logo. 
+   Navigate to the Django administration panel URL/admin:
+
+        1. Click “Configuration files”
+        2. Click “Add configuration file”
+        3. Select “login_background” from drop-down list and browse new image from your computer
+        4. Click “Save”
+        5. Do the same for the logo
