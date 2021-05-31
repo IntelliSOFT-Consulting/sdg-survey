@@ -118,8 +118,6 @@ Options:
         kf.kobo.local kc.kobo.local ee.kobo.local
 
 
-
-
 ## 6. To Rebuild the configuration
     $kobo-install> python3 run.py --setup
 
